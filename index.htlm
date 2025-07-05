@@ -1,0 +1,273 @@
+<!-- Scripts y Estilos para la Página de Ventas -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    /* Estilos encapsulados para evitar conflictos con Systeme.io */
+    #sales-page-container {
+        font-family: 'Inter', sans-serif;
+        line-height: 1.6;
+        color: #1f2937; /* text-gray-800 */
+        background-color: #f9fafb; /* bg-gray-50 */
+    }
+    #sales-page-container h1, 
+    #sales-page-container h2, 
+    #sales-page-container h3, 
+    #sales-page-container .cta-button, 
+    #sales-page-container summary {
+         text-transform: uppercase;
+    }
+    #sales-page-container .normal-case {
+        text-transform: none;
+    }
+    #sales-page-container .cta-button:hover {
+        opacity: 0.9;
+    }
+    #sales-page-container .gradient-bg {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    #sales-page-container .alt-gradient-bg {
+        background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    }
+    #sales-page-container .sub-color {
+        color: #f3e8ff;
+    }
+    #sales-page-container .light-lilac-bg {
+        background-color: #f5f3ff;
+    }
+</style>
+
+<!-- Contenido de la Página de Ventas -->
+<div id="sales-page-container">
+
+    <!-- SECCIÓN 1: HERO / ABOVE THE FOLD -->
+    <header class="gradient-bg text-white py-12 sm:py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight mb-4">DEJA DE SOÑAR CON LA VIDA QUE QUIERES Y EMPIEZA A VIVIRLA. HOY.</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 sub-color opacity-95 normal-case">Descubre el método paso a paso para despertar tu poder de manifestación, atraer abundancia ilimitada y convertirte en el arquitecto de tu propio destino.</p>
+            <div class="flex flex-col items-center">
+                 <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865dac81a5a8_Mockup11.png" alt="Portada del Ebook Merezco la Vida de Mis Sueños" class="rounded-lg shadow-2xl mb-8 w-auto h-auto max-w-xs">
+                <a href="https://go.hotmart.com/K99971868O?ap=86eb" class="cta-button bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-4 px-8 rounded-full text-lg sm:text-xl shadow-lg">
+                    ¡SÍ, QUIERO MANIFESTAR LA VIDA DE MIS SUEÑOS!
+                </a>
+                <p class="mt-2 text-sm opacity-80 normal-case">Obtén tu acceso inmediato al libro electrónico.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECCIÓN 2: AGITANDO EL PROBLEMA -->
+    <section class="pt-16 sm:pt-24 pb-12 sm:pb-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-black mb-12 text-center">¿ALGUNA VEZ HAS SENTIDO QUE...?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <!-- Tarjeta 1 -->
+                <div class="border border-gray-200 rounded-lg p-6 flex items-center space-x-4">
+                    <svg class="w-12 h-12 text-red-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 16.318A4.5 4.5 0 0012 16.5a4.5 4.5 0 00-3.182-.182m3.182-3.182a4.5 4.5 0 00-3.182-3.182m3.182 3.182L9 15a4.5 4.5 0 01-3.182-3.182M12 6a3 3 0 110 6 3 3 0 010-6z" />
+                    </svg>
+                    <p class="text-lg text-gray-600 normal-case">...sientes un vacío constante, como si algo faltara para ser plenamente feliz.</p>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="border border-gray-200 rounded-lg p-6 flex items-center space-x-4">
+                    <svg class="w-12 h-12 text-purple-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                    </svg>
+                    <p class="text-lg text-gray-600 normal-case">...tus sueños más grandes parecen lejanos, casi imposibles de alcanzar.</p>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="border border-gray-200 rounded-lg p-6 flex items-center space-x-4">
+                    <svg class="w-12 h-12 text-green-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                    </svg>
+                    <p class="text-lg text-gray-600 normal-case">...te esfuerzas día a día, pero la abundancia y la paz interior se sienten esquivas.</p>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="border border-gray-200 rounded-lg p-6 flex items-center space-x-4">
+                    <svg class="w-12 h-12 text-red-500 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                    </svg>
+                    <p class="text-lg text-gray-600 normal-case">...las dudas y los miedos sabotean tus intentos de crear un cambio real.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="text-xl font-bold gradient-bg text-transparent bg-clip-text inline-block uppercase">SI DIJISTE QUE SÍ, NO ESTÁS SOLO/A.</p>
+                <p class="text-lg text-gray-600 mt-2 normal-case">Muchas personas, como tú, han sentido esa <span class="font-bold">desconexión</span>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5: PRUEBA SOCIAL (TESTIMONIOS) -->
+    <section class="alt-gradient-bg pt-16 pb-16 sm:pb-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-black text-center mb-12">MILES DE PERSONAS YA ESTÁN CAMBIANDO SU REALIDAD...</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865de6051593_Gemini_Generated_Image_u1k0jnu1k0jnu1k0.png" alt="Foto de Sofía L." class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-purple-300 shadow-lg object-cover">
+                    <p class="text-gray-600 mb-4 normal-case">"¡No puedo creerlo! Siempre fui escéptica, pero después de aplicar lo del capítulo 4, recibí un aumento inesperado en el trabajo. Este libro es magia pura."</p>
+                    <p class="font-bold uppercase">- SOFÍA L., ARGENTINA</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865de6053018_Gemini_Generated_Image_8ezf848ezf848ezf.png" alt="Foto de Javier R." class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-purple-300 shadow-lg object-cover">
+                    <p class="text-gray-600 mb-4 normal-case">"Estaba en un punto muy bajo de mi vida. Este libro me dio las herramientas no solo para salir, sino para construir una realidad que antes solo me atrevía a soñar."</p>
+                    <p class="font-bold uppercase">- JAVIER R., ESPAÑA</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865de6053d92_Gemini_Generated_Image_76mu6876mu6876mu.png" alt="Foto de Camila G." class="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-purple-300 shadow-lg object-cover">
+                    <p class="text-gray-600 mb-4 normal-case">"El diario de manifestación que viene de regalo es increíble. Me ha ayudado a mantener el enfoque y ver resultados tangibles semana tras semana."</p>
+                    <p class="font-bold uppercase">- CAMILA G., COLOMBIA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- NUEVA SECCIÓN: QUÉ LOGRARÁS -->
+    <section class="bg-white py-16 sm:py-24">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-12 max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-black">¿QUÉ LOGRARÁS CON "MEREZCO LA VIDA DE MIS SUEÑOS"?</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
+                <!-- Logro 1 -->
+                <div class="flex items-start space-x-3">
+                    <svg class="w-7 h-7 text-purple-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>
+                    <div>
+                        <h3 class="font-bold text-xl mb-1 text-purple-700">DESPERTARÁS TU PODER INTERIOR</h3>
+                        <p class="text-gray-600 normal-case">Conectarás con tu esencia y activarás la capacidad innata de manifestar tus deseos más profundos.</p>
+                    </div>
+                </div>
+                <!-- Logro 2 -->
+                <div class="flex items-start space-x-3">
+                    <svg class="w-7 h-7 text-purple-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>
+                    <div>
+                        <h3 class="font-bold text-xl mb-1 text-purple-700">TRANSFORMARÁS CREENCIAS LIMITANTES</h3>
+                        <p class="text-gray-600 normal-case">Identificarás y reemplazarás los pensamientos que te frenan por creencias que te impulsan hacia el éxito.</p>
+                    </div>
+                </div>
+                <!-- Logro 3 -->
+                <div class="flex items-start space-x-3">
+                    <svg class="w-7 h-7 text-purple-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>
+                    <div>
+                        <h3 class="font-bold text-xl mb-1 text-purple-700">DISEÑARÁS LA VIDA QUE ANHELAS</h3>
+                        <p class="text-gray-600 normal-case">Obtendrás herramientas prácticas para atraer amor, prosperidad, salud y felicidad a tu realidad.</p>
+                    </div>
+                </div>
+                <!-- Logro 4 -->
+                <div class="flex items-start space-x-3">
+                    <svg class="w-7 h-7 text-purple-600 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg>
+                    <div>
+                        <h3 class="font-bold text-xl mb-1 text-purple-700">LIBERARÁS TU POTENCIAL DE MANIFESTACIÓN</h3>
+                        <p class="text-gray-600 normal-case">Entenderás y aplicarás las leyes universales que rigen la creación de tu realidad deseada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 6: LA OFERTA IRRESISTIBLE -->
+    <section id="oferta" class="gradient-bg text-white py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-black mb-4">CONSIGUE ACCESO INMEDIATO A TODO ESTO:</h2>
+            <p class="max-w-2xl mx-auto mb-12 normal-case">Cuando accedas hoy a "Merezco la Vida de Mis Sueños", no solo recibirás el Ebook...</p>
+            
+            <div class="bg-white text-gray-800 rounded-2xl shadow-2xl max-w-4xl mx-auto p-8 md:p-12">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865dae14fc3d_banners_22_1.webp" alt="Colección de Ebook y Bonos" class="rounded-lg shadow-lg w-full">
+                    <div class="text-left">
+                        <h3 class="font-bold text-2xl mb-4">TU PAQUETE DE TRANSFORMACIÓN COMPLETO:</h3>
+                        <div class="space-y-3 mb-6 normal-case">
+                            <div class="flex justify-between items-center"><div class="flex items-center"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span><strong>Ebook:</strong> "Merezco la Vida de Mis Sueños"</span></div><span class="pl-2 line-through text-gray-400">$19</span></div>
+                            <div class="flex justify-between items-center"><div class="flex items-center"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span><strong>Regalo #1:</strong> Mi Diario de Manifestación</span></div><span class="pl-2 line-through text-gray-400">$27</span></div>
+                            <div class="flex justify-between items-center"><div class="flex items-center"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span><strong>Regalo #2:</strong> Secretos de Sonidos Mágicos</span></div><span class="pl-2 line-through text-gray-400">$17</span></div>
+                            <div class="flex justify-between items-center"><div class="flex items-center"><svg class="w-6 h-6 text-green-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><span><strong>Regalo #3:</strong> Números Mágicos Abundantes</span></div><span class="pl-2 line-through text-gray-400">$17</span></div>
+                        </div>
+                        <p class="text-lg normal-case">VALOR TOTAL: <span class="line-through text-red-500 font-bold">$80 USD</span></p>
+                        <p class="text-xl md:text-2xl font-black my-4 uppercase text-purple-700">TU INVERSIÓN HOY: SOLO $14 USD</p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="https://go.hotmart.com/K99971868O?ap=86eb" class="cta-button bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-3 px-6 text-lg rounded-full shadow-lg w-full sm:w-auto flex items-center justify-center space-x-2">
+                        <span>ORDENAR AHORA</span>
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c.51 0 .962-.343 1.087-.835l1.823-6.44a1.125 1.125 0 00-1.087-1.462H6.31M15 19.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM7.5 19.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCIÓN 7: GARANTÍA -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center bg-gray-100 rounded-2xl p-8 shadow-md">
+                <img src="https://d1yei2z3i6k35z.cloudfront.net/12564854/6865d652c2082_66f45d4529f2e_7-dias-de-garantia-1.png" alt="SELLO DE GARANTÍA DE 7 DÍAS" class="w-32 h-32 md:w-40 md:h-40 mb-6 md:mb-0 md:mr-8 flex-shrink-0">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-black mb-3">PRUÉBALO SIN NINGÚN RIESGO DURANTE 7 DÍAS</h2>
+                    <p class="text-gray-600 normal-case text-justify">Estoy tan convencida del poder de este material, que quiero que no arriesgues absolutamente nada. Descarga el ebook y los bonos, aplica las técnicas. Si en los próximos 7 días no sientes que ha valido la pena, envíame un correo y te devolveré el 100% de tu dinero. Sin preguntas. El riesgo es todo mío.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE AÑADIDO: QUÉ SUCEDE DESPUÉS -->
+    <section class="py-16 sm:py-24">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="light-lilac-bg border border-violet-200 rounded-lg p-8">
+                <h2 class="text-2xl md:text-3xl font-black text-center mb-6 text-violet-800">¿QUÉ SUCEDE DESPUÉS DE REALIZAR TU PEDIDO?</h2>
+                <ol class="list-decimal list-inside space-y-4 text-lg text-gray-700 normal-case">
+                    <li class="text-justify"><span class="font-bold">Confirmación inmediata:</span> Recibirás un correo electrónico de Hotmart confirmando tu compra.</li>
+                    <li class="text-justify"><span class="font-bold">Acceso al instante:</span> En ese mismo correo, encontrarás los enlaces para descargar el ebook "Merezco la Vida de Mis Sueños" y todos los bonos de regalo en formato PDF.</li>
+                    <li class="text-justify"><span class="font-bold">Comienza tu transformación:</span> Podrás empezar a leer y aplicar las enseñanzas de inmediato, desde cualquier dispositivo (computadora, tablet o celular).</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 8: PREGUNTAS FRECUENTES (FAQ) -->
+    <section class="alt-gradient-bg pt-16 sm:pt-24 pb-16 sm:pb-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-black text-center mb-12">PREGUNTAS FRECUENTES</h2>
+            <div class="space-y-4">
+                <details class="bg-white p-6 rounded-lg shadow-sm">
+                    <summary class="font-bold text-lg cursor-pointer">¿PARA QUIÉN ES ESTE EBOOK?</summary>
+                    <p class="text-gray-600 mt-4 normal-case">Es para cualquier persona, hombre o mujer, que sienta que hay más en la vida para ellos y esté lista para tomar las riendas de su destino. No importa si eres un completo principiante en estos temas o si ya tienes experiencia.</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg shadow-sm">
+                    <summary class="font-bold text-lg cursor-pointer">¿En qué formato recibiré el ebook y los bonos?</summary>
+                    <p class="text-gray-600 mt-4 normal-case">Recibirás el ebook principal y todos los bonos en formato PDF, compatibles con cualquier computadora, tablet o smartphone. Podrás leerlos donde y cuando quieras.</p>
+                </details>
+                <details class="bg-white p-6 rounded-lg shadow-sm">
+                    <summary class="font-bold text-lg cursor-pointer">¿Cuánto tiempo tardaré en ver resultados?</summary>
+                    <p class="text-gray-600 mt-4 normal-case">Piensa en esto como plantar una semilla. Las herramientas de este ebook son el agua y el sol que necesitas, y son efectivas desde el momento en que las aplicas. Algunas semillas brotan en días, otras necesitan más tiempo para fortalecer sus raíces antes de salir a la superficie. La clave es la constancia en el cuidado; los resultados son una consecuencia natural de tu dedicación.</p>
+                </details>
+                 <details class="bg-white p-6 rounded-lg shadow-sm">
+                    <summary class="font-bold text-lg cursor-pointer">¿EL PAGO ES SEGURO?</summary>
+                    <p class="text-gray-600 mt-4 normal-case">Sí. Tu pago se procesa a través de una plataforma segura con encriptación de datos de extremo a extremo. Tu información está 100% protegida.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 9: CIERRE Y CTA FINAL -->
+    <footer class="gradient-bg text-white py-16 sm:py-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-black leading-tight mb-4">LA VIDA QUE DESEAS NO ESTÁ ESPERANDO A QUE LLEGUE EL MOMENTO ADECUADO.</h2>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 opacity-90 normal-case">El momento es <strong>AHORA</strong>. Tienes dos opciones: cerrar esta página y seguir esperando, o hacer una pequeña inversión en ti y empezar a construir la realidad que te mereces.</p>
+            <a href="https://go.hotmart.com/K99971868O?ap=86eb" class="cta-button bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-bold py-4 px-8 rounded-full text-lg sm:text-xl shadow-lg mb-4">
+                ¡SÍ, ELIJO LA VIDA DE MIS SUEÑOS!
+            </a>
+            <p class="mt-4 text-sm opacity-80 uppercase">(ACCESO A TODO POR SOLO $14 USD)</p>
+
+            <div class="mt-16 text-sm opacity-70 normal-case">
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mt-8 opacity-90 normal-case">No tienes nada que perder y una nueva vida por ganar.</p>
+                <div class="mt-8">
+                    <a href="#" class="underline">Política de Privacidad</a> | <a href="#" class="underline">Términos de Uso</a> | <a href="#" class="underline">Contacto</a>
+                </div>
+                <p class="mt-2">&copy; 2025 MEREZCO LA VIDA DE MIS SUEÑOS. TODOS LOS DERECHOS RESERVADOS.</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
